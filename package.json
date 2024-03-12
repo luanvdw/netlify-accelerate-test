@@ -1,5 +1,10 @@
 {
   "devDependencies": {
-    "@netlify/edge-functions": "^2.3.1"
+    "@netlify/edge-functions": "^2.3.1",
+    "prisma": "^5.10.2"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.10.2",
+    "@prisma/extension-accelerate": "^1.0.0"
   }
 }
