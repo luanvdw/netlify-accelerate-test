@@ -1,5 +1,5 @@
 import type { Config, Context } from "@netlify/edge-functions";
-import { PrismaClient } from "@prisma/client";
+import { PrismaClient } from "@prisma/client/edge";
 import { withAccelerate } from "@prisma/extension-accelerate";
 
 export default async (request: Request, context: Context) => {
